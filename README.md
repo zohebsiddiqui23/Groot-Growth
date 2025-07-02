@@ -65,10 +65,6 @@ docker run -p 8501:8501 groot-growth
 
 Visit `http://localhost:8501`
 
-## Deployment
-
-Push to `main` on this repo—Spaces CI/CD will build your Docker image and deploy automatically.
-Live at `https://huggingface.co/spaces/<your-username>/groot-growth`
 
 ## Project Structure
 
