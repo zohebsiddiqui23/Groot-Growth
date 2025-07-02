@@ -34,7 +34,7 @@ Installation:
 
 1. Clone this repo  
    ```bash
-   git clone https://github.com/<your-username>/groot-growth.git
+   git clone https://github.com/zohebsiddiqui23/groot-growth.git
    cd groot-growth
 ````
 
