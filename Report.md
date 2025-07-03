@@ -29,6 +29,8 @@ Traditional financial planning apps present users with charts and spreadsheets t
 
 ### Infrastructure – Docker & CI/CD: 
 Dockerfile based on python:3.12-slim configures /cache and streamlit directories, installs dependencies, and launches the app on port 8501. Deployment uses Hugging Face Spaces CI/CD: git push triggers Docker build and instant container deployment at the public URL.
+
+![Architecture Diagram](Architecture.png)
  
 ## Core Features
 1. Conversational Guidance: natural-language Q&A powered by a causal language model.
@@ -51,5 +53,6 @@ Cold-start latency: approx. 30–60 seconds on first load. Generation time: unde
 4. Iterative Learning: update training.txt to refine responses.
 ## Conclusion & Future Work
 Groot Growth delivers a human-centric financial advisor in under 200 lines of code. Future enhancements include fine-tuning on opt-in user logs, richer prompt templates, and latency optimizations via quantization or GPU support.
-## Screen Shot
- 
+## User Interface Screen Shot
+
+ ![Streamlit UI](UI.png)
